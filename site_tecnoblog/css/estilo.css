@@ -1,0 +1,228 @@
+/*
+
+    zerar formatação padrão
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+
+    formatação do cabeçalho
+
+*/
+
+#cabecalho{
+    background-color: royalblue;
+    text-align: center;
+    padding: 10px;
+}
+
+#logo{
+    padding: 10px;
+}
+
+#menu{
+    margin: 20px 0 15px 0;
+}
+
+/*
+
+    formatação geral
+
+*/
+
+h1{
+    color: white;
+    font-size: 2.5em;
+}
+
+.preto{
+    color: black;
+    font-size: 1.05em;
+}
+
+/*
+
+    formatação do menu
+
+*/
+
+a{
+    color: royalblue;
+    font-size: 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho a{
+    color: white;
+    font-size: 1em;
+    padding: 5px 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: white;
+}
+
+#cabecalho a:hover{
+    color: royalblue;
+    background: black;
+    padding: 15px 25px;
+}
+
+/*
+
+    formatação da area principal
+
+*/
+
+#principal{
+    width: 920px;
+    margin: auto;
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin: 15px 0px;
+    background: white;
+}
+
+#tags{
+    padding-bottom: 15px;
+}
+
+#tags a{
+    display: inline-block;
+    text-decoration: none;
+    color: #cacaca;
+}
+
+#tags a:hover{
+    color: #a7a7a7;
+}
+
+h2{
+    color: royalblue;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.data-postagem{
+    display: block;
+    font-size: 0.8em;
+    border-left: royalblue solid 3px;
+    margin: 10px 0;
+    padding-left: 5px;
+}
+
+.postagem img{
+    width: 620px;
+}
+
+.postagem p{
+    padding: 10px 0;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+/*
+
+    formatação da area lateral
+
+*/
+
+#lateral{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: white;
+    width: 240px;
+    float: right;
+}
+
+#lateral-categorias{
+    margin-bottom: 15px;
+    background: white;
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.conteudo-lateral h3{
+    color: royalblue;
+    background: black;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.conteudo-lateral h4{
+    color: royalblue;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.postagem-lateral p{
+    padding: 5px;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+
+.postagem-lateral a{
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.postagem-lateral hr{
+    margin: 20px 0;
+}
+
+.categoria-lateral{
+    padding: 2.5px 5px;
+}
+
+/*
+
+    formatação do rodapé
+
+*/
+
+h3{
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+#rodape{
+    clear: both;
+    background: royalblue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
